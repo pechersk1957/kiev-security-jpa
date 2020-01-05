@@ -11,8 +11,4 @@ $ git add .    (add all files to your local commit)
 $ git commit -a -m "Initial commit" (You've created a commit in your local repository, but not in the remote one)
 $ git push -u origin --all  (To put it on the remote)
 
-
-
-
-
 source: https://www.programcreek.com/2013/02/how-to-share-your-eclipse-projects-to-github/

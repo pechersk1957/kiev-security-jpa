@@ -11,7 +11,7 @@ import static org.junit.Assert.assertThat;
 import java.util.List;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -31,7 +31,7 @@ import com.example.demo.repo.UserRepository;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Transactional
-class KievSecurityJpaApplicationTests {
+public class KievSecurityJpaApplicationTests {
 	@Autowired UserRepository userRepository;
 	@Autowired BusinessObjectRepository businessObjectRepository;
 	@Autowired SecureBusinessObjectRepository secureBusinessObjectRepository;
